@@ -58,6 +58,7 @@ kotlin {
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtime.compose)
             implementation(libs.voyager)
+            implementation(libs.view.model)
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
